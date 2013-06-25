@@ -1,0 +1,151 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>RWD Template | Drupal Base Site</title>
+<meta content="TITLE OF PAGE GOES HERE" name="title"/>
+<meta content="AUTHOR OF PAGE GOES HERE" name="author"/>
+<meta content="KEYWORDS, CAN, BE, SEPERATED, WITH, COMMAS" name="keywords"/>
+<meta content="DESCRIPTION OF PAGE GOES HERE" name="description"/>
+
+<meta content="SAME TITLE GOES HERE" name="DC.Title"/>
+<meta content="SAME AUTHOR GOES HERE" name="DC.Creator"/>
+<meta content="SAME, KEYWORDS, GO, HERE" name="DC.Subject.Keyword"/>
+<meta content="SAME DESCRIPTION GOES HERE" name="DC.Description"/>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+
+<link href="css/default.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/SAglobal.css" media="all" rel="stylesheet" type="text/css">
+<link href="css/SAprint.css" media="print" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.min.js?v=1.8.2"></script>
+<script type="text/javascript" src="js/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="js/tamustyle.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="page" class="container page">
+	<div id="header">
+		<div id="header_left">
+			<!-- Make sure to change this image and update the link's location -->
+			<a href="/" title="Home" rel="home" id="logo"><img src="images/SAlogo.png" alt="Home"/></a>
+		</div>
+	</div>
+	
+	
+<div id="secondary">
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				
+				<form class="navbar-search hidden-desktop" style="padding-left:15px">
+						<strong>Search: </strong><input type="text" class="search-query" id="mobilesearch">
+				</form>
+				
+				<!-- These are navigation links in the banner, make sure the format is followed correctly -->
+				<div class="nav-collapse collapse" style="">
+					<ul class="nav">
+						<li><a href="#" title="" class="active">Link 1</a></li>
+						<li class="dropdown"><a id="drop1" href="#" role="button" data-toggle="dropdown" class="dropdown-toggle">Dropdown 1</b></a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+							<li><a href="#" title="">Sublink 1</a></li>
+							<li><a href="#" title="">Sublink 2</a></li>
+							<li><a href="#" title="">Sublink 3</a></li>
+						</ul>
+						</li>
+						<li class="dropdown"><a id="drop2" href="#" role="button" data-toggle="dropdown" class="dropdown-toggle">Dropdown 2</b></a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+							<li><a href="#" title="">Sublink 1</a></li>
+							<li><a href="#" title="">Sublink 2</a></li>
+							<li><a href="#" title="">Sublink 3</a></li>
+						</ul>
+						</li>
+						<li><a href="#" title="" class="active">Link 2</a></li>
+						<li><a href="#" title="" class="active">Link 3</a></li>
+					</ul>
+					
+					<!-- This is the search field, you'll need to connect the necessary elements before it works though -->
+					<form class="navbar-search pull-right visible-desktop">
+						<strong>Search: </strong><input type="text" class="search-query" id="mobilesearch">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- This is where the main content of the page goes-->
+	<div id="main" class="clearfix">
+		<div id="content">									
+			<div id="content-header">
+				<h1 class="title">Heading</h1>
+			</div> <!-- /#content-header -->
+			<div id="content-area" class="row">
+				<div id="content-wrapper" class="span9  with-right-sidebar">
+					<div id="content-block">
+						<div class="clearfix">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet est eget nunc vestibulum consectetur. Donec sollicitudin enim feugiat augue pretium at elementum massa volutpat. Mauris interdum lacus luctus lacus tristique nec auctor justo viverra. Fusce molestie blandit erat iaculis hendrerit. Fusce vitae dolor magna, ut luctus magna. Praesent nunc ipsum, rhoncus a sodales et, luctus ac tellus. Vestibulum velit sapien, tempus eu sodales in, elementum eget justo. Nunc sit amet erat id eros tincidunt ultricies. Vivamus feugiat feugiat turpis id posuere. Vivamus et est a mi varius eleifend. Aliquam ultricies, est a dictum fringilla, leo sapien pretium justo, nec sagittis erat felis eget metus. Curabitur adipiscing congue dolor, in cursus purus ullamcorper sed. Nullam elit augue, imperdiet vel interdum et, gravida commodo augue.</p>						
+						</div> <!-- /block-inner /block -->
+					</div>
+				</div>
+				
+				<!-- This is where sidebar content goes, the left division line only extends the length of the content -->
+				<div id="sidebar-right-wrapper" class="span3">
+					<div id="sidebar-right">
+						<div>
+							<div class="clearfix">
+								<div class="block-inner">
+									<h2 class="block-title">Quick Links</h2>
+									<div class="content" >
+										<ul class="menu">
+											<li class="leaf"><a href="#">Test Link 1</a></li>
+											<li class="leaf"><a href="#">Test Link 2</a></li>
+											<li class="leaf"><a href="#">Test Link 3</a></li>
+											<li class="leaf"><a href="#">Test Link 4</a></li>
+											<li class="leaf"><a href="#">Test Link 5</a></li>
+										</ul>
+									</div>
+								</div>
+							</div> <!-- /block-inner /block -->
+						</div>
+					</div>
+				</div>
+				
+			</div>	
+		</div>
+	</div>
+</div>	
+<div id="footer">
+	<div class="region region-footer">
+		<div class=" clearfix">
+			<div class="block-inner">
+				<div class="content" >
+					<p>
+						<!-- Make sure these links go to the right places -->
+						<a href="http://www.tamu.edu/" target="_blank" title="Texas A&amp;M University">Texas A&amp;M University</a> &#8226; 
+						<a href="">Site Policies</a> &#8226; 
+						<a href="">Webmaster</a> &#8226; 
+						<a href="">Site Map</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /block-inner /block -->
+	</div>
+</div>
+</div>
+</body>
+</html>
